@@ -1,5 +1,10 @@
+
+
 .App {
   text-align: center;
+}
+body {
+  background-color: orangered;
 }
 
 .App-logo {
@@ -27,6 +32,16 @@
 .App-link {
   color: #61dafb;
 }
+.container-main {
+  box-shadow: 1px 1px 2px 2px;
+}
+
+.title{
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Nunito';
+  font-size: 3rem;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +50,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.test {
+  border: solid orange;
+}
+
+.bord{
+
+  border: solid orange;
+  border-radius: 1%;
+  background-color: white;
+  color: black;
 }
